@@ -1,8 +1,7 @@
-price= 1000000
-has_good_credit = True
-if has_good_credit:
-    downpayment = 0.1*price
-    print(f"Down Payment is 10% which is: ${downpayment}")
+name = input('Enter Your Name: ')
+if len(name)<3:
+    print('Name must be atleast 3 charcters')
+elif len(name)>50:
+    print('Name can be maximum of 50 characters')
 else:
-    downpayment = 0.2*price
-    print(f"Down Payment is 20% which is: ${downpayment}")
+    print('Name looks Good')
